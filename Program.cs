@@ -35,8 +35,6 @@ namespace AllCardsOnDeckCS
 
             var numberOfCards = deck.Count;
 
-            // for (var rightIndex = numberOfNumbers - 1; rightIndex >= 0; rightIndex--)
-
             for (var rightIndex = numberOfCards - 1; rightIndex >= 0; rightIndex--)
             {
                 var leftIndex = new Random().Next(0, rightIndex);
@@ -52,36 +50,6 @@ namespace AllCardsOnDeckCS
             {
                 Console.WriteLine($"{num}");
             }
-
-
-
-
-            // var deck = new List<string>() { "Hearts", "Diamonds", "Spades", "clubs" };
-
-            // var numberOfSuitsInList = suits.Count;
-
-            // var cards = new List<string>() { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
-            // for (var index = 0; index < suits.Count; index++)
-            // {
-            //     var suit = suits[index];
-            //     Console.WriteLine(suit);
-            // }
-
-            // var cards = new List<string>() { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
-            // for (var index = 0; index < cards.Count; index++)
-            // {
-            //     var card = cards[index];
-            //     Console.WriteLine(card);
-            // }
-
-
-            // var randomNumberGenerator = new Random();
-
-            // var randomNumber = randomNumberGenerator.Next(956);
-
-
-
-
 
 
         }
